@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework4.3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        #red {
+            background-color: darkred;
+        }
+
+        #blue {
+            background-color: aquamarine;
+        }
+
+        #green {
+            background-color: darkolivegreen;
+        }
+
+        .combined {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .combined p {
+            margin: 0 40px;
+        }
+
+        .combined a {
+            font-size: 40px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div id="red" class="combined">
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem dolorum facilis minus nisi omnis qui
+        repellat rerum sit voluptatibus! A ad commodi dolore expedita fugit id ipsam itaque libero odio quam quas rem
+        sit, tempore unde vero. A delectus enim, in maxime modi necessitatibus quam quasi reprehenderit similique
+        sunt!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut consequatur ducimus eaque itaque laborum officiis
+        qui quod saepe voluptatibus. Alias at dolorum eaque eum ex excepturi fuga nostrum porro quia quis ratione, sit,
+        voluptas voluptatibus. Commodi iusto nulla qui. Accusantium assumenda dignissimos excepturi illum laboriosam nam
+        nisi numquam quas!</p>
+    <a href="#blue">&darr;</a>
+</div>
+<div id="blue" class="combined">
+    <a href="#red">&uarr;</a>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem dolorum facilis minus nisi omnis qui
+        repellat rerum sit voluptatibus! A ad commodi dolore expedita fugit id ipsam itaque libero odio quam quas rem
+        sit, tempore unde vero. A delectus enim, in maxime modi necessitatibus quam quasi reprehenderit similique
+        sunt!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut consequatur ducimus eaque itaque laborum officiis
+        qui quod saepe voluptatibus. Alias at dolorum eaque eum ex excepturi fuga nostrum porro quia quis ratione, sit,
+        voluptas voluptatibus. Commodi iusto nulla qui. Accusantium assumenda dignissimos excepturi illum laboriosam nam
+        nisi numquam quas!</p>
+    <a href="#green">&darr;</a>
+</div>
+<div id="green" class="combined">
+    <a href="#blue">&uarr;</a>
+    <h2>Section Title</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolorem dolorum facilis minus nisi omnis qui
+        repellat rerum sit voluptatibus! A ad commodi dolore expedita fugit id ipsam itaque libero odio quam quas rem
+        sit, tempore unde vero. A delectus enim, in maxime modi necessitatibus quam quasi reprehenderit similique
+        sunt!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aut consequatur ducimus eaque itaque laborum officiis
+        qui quod saepe voluptatibus. Alias at dolorum eaque eum ex excepturi fuga nostrum porro quia quis ratione, sit,
+        voluptas voluptatibus. Commodi iusto nulla qui. Accusantium assumenda dignissimos excepturi illum laboriosam nam
+        nisi numquam quas!</p>
+</div>
+</body>
+</html>
