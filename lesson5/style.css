@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*HOME*/
+/*HEADER*/
+header {
+    background-color: rgba(245, 245, 245);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+header div {
+    text-align: center;
+}
+
+header nav {
+    width: 50%;
+}
+
+header nav ol {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+nav ol a {
+    text-decoration: none;
+    color: #676666;
+    transition: 0.5s;
+}
+
+header a:hover {
+    color: #294040;
+    transition: 0.5s;
+}
+/*SECTION*/
+section {
+    height: 90vh;
+    background-image: url("https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    color: #fdf8f8;
+
+}
+ .first {
+     margin-top: 90px;
+     margin-bottom: 10px;
+ }
+
+ section h1 {
+     font-size: 100px;
+     letter-spacing: 30px;
+ }
+ section button{
+     background-color: black;
+     color: white;
+     height: 40px;
+     width: 200px;
+     border: none;
+     transition: 0.5s;
+ }
+
+ section button:hover{
+     transform: scale(1.1);
+     transition: 0.5s;
+ }
