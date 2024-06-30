@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 6.4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: #8D8484;
+            height: 22vh;
+        }
+
+        .content1 {
+            background: #776969;
+            width: 73vw;
+            height: 18.7vh;
+        }
+
+        .content2 {
+            background: #643030;
+            width: 73vw;
+            height: 18.7vh;
+        }
+
+        .content3 {
+            background: #441818;
+            width: 73vw;
+            height: 18.6vh;
+        }
+
+        .spam1 {
+            background: #937575;
+            width: 27vw;
+            height: 28vh;
+        }
+
+        .spam2 {
+            background: #644C4C;
+            width: 27vw;
+            height: 28vh;
+        }
+
+        footer {
+            background: #BDBDBD;
+            height: 22vh;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Inter", sans-serif;
+            font-size: 45px;
+            font-weight: 400;
+        }
+
+        .white {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<header class="text">
+    <p>Header</p>
+</header>
+<div class="flex">
+    <main>
+        <section class="content1 text white">
+            <p>Content - 1</p>
+        </section>
+        <section class="content2 text white">
+            <p>Content - 2</p>
+        </section>
+        <section class="content3 text white">
+            <p>Content - 3</p>
+        </section>
+    </main>
+    <aside>
+        <section class="spam1 text white">
+            <p>spam -1</p>
+        </section>
+        <section class="spam2 text white">
+            <p>spam -2</p>
+        </section>
+    </aside>
+</div>
+<footer class="text">
+    <p>footer</p>
+</footer>
+
+</body>
+</html>
