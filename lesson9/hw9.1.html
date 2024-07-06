@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 9.1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+        }
+
+        body {
+            background-color: #51a1a1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .main {
+            background-color: white;
+            height: 360px;
+            width: 470px;
+            border-radius: 10px;
+        }
+
+        .heading {
+            background-color: whitesmoke;
+            height: 25%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px 10px 0 0;
+            font-size: 30px;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            padding: 30px 0;
+        }
+
+        .custom-size {
+            height: 40px;
+            width: 340px;
+            display: block;
+        }
+
+        .inline {
+            margin-top: 20px;
+            display: flex;
+            gap: 80px;
+        }
+
+        input[type="submit"] {
+            padding: 5px 35px;
+            outline: none;
+            border: 1px solid gray;
+            border-radius: 8px;
+        }
+
+        input[type="submit"]:active {
+            background-color: #a39696;
+        }
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="heading">
+        <p>Вхід в особистий кабінет</p>
+    </div>
+    <form>
+        <input type="text" name="username" placeholder="Логін або email" class="custom-size" required>
+        <input type="password" name="password" placeholder="Пароль" class="custom-size" required>
+        <div class="inline">
+            <label> Запам'ятати мене
+                <input type="checkbox" name="checkbox">
+            </label>
+            <input type="submit" value="Вхід">
+        </div>
+    </form>
+</div>
+</body>
+</html>
