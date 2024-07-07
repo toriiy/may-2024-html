@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 9.2</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            font-weight: 600;
+        }
+
+        body {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .top {
+            border: 2px solid lightgray;
+            width: 400px;
+            height: 570px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            margin-bottom: 15px;
+        }
+
+        .top img {
+            width: 250px;
+            height: 250px;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .size {
+            width: 300px;
+            height: 45px;
+            border: 2px solid lightgray;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        .size:focus {
+            outline: none;
+            border: 2px solid #9696f6;
+            border-radius: 6px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 120px;
+            border: none;
+            border-radius: 10px;
+            background-color: #41b1d6;
+            color: white;
+            font-size: 16px;
+            margin: 10px 0 25px 0;
+        }
+
+        input[type="submit"]:active {
+            background-color: #7a7af8;
+        }
+
+        span {
+            color: gray;
+            margin-bottom: 30px;
+        }
+
+        .text {
+            font-size: 14px;
+        }
+
+        .inline {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .inline img {
+            width: 16px;
+            height: 16px;
+        }
+
+        .blue {
+            text-decoration: none;
+            color: #01019c;
+        }
+
+        .end {
+            border: 2px solid lightgray;
+            width: 400px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .end a {
+            text-decoration: none;
+            color: #1aa9d1;
+        }
+    </style>
+</head>
+<body>
+<div class="top">
+    <img src="logo.png" alt="instagram logo">
+    <form>
+        <input type="text" name="username" placeholder="Номер телефону, ім'я користувача або email" class="size"
+               required>
+        <input type="password" name="password" placeholder="Пароль" class="size" required>
+        <input type="submit" value="Увійти">
+    </form>
+    <span>АБО</span>
+    <div class="inline">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABeklEQVR4nGOwD9z6fyhjhoF2gP2oBwIHPhTtR5NQ4MCHpP1oJg4cmphhoCwOTNzzf+aiG/+Pn3n5/9HTL//ff/z5/9PnXyj45evvg9MDMxff+P/z19//hMDXb78HnwcWrLxF0OGD1gMJ+Yf+//377/+Q9cC6bQ+Idvyg9MD9R5//4wO/fv39/+L1t/9PX3wF47sPPg0eDziFbMObfLbtffzfJXQ7yebSzQM+sbvwhn5ayRGyzKWbB4KT9+L1QEzOgSHugexRD2ylaoiDQrS++xwc90y/jDcGJs25iqIehKvazgxcEpo2/9p/SsHtex+Htgf2Hn46tD0wf8Wtoe2Bxp5zQ9sDSYWHB84D6aVHwB0WGF685g5ex67YcBdFPQi7hhFuWoxWZPZExshoTRw4moS2UpSpR5NQ4GgS2jqahPCBmNEOTSBtmhSjpVDgaFto62gSsh+tibeO9gf+j/hi1C18B8bAVT0S9ozaSVYgja6VsKdxDW4/3GMAAG9jstvJSdrkAAAAAElFTkSuQmCC"
+             alt="facebook logo">
+        <a href="#" class="blue">Увійти через Facebook</a>
+    </div>
+    <a href="#" class="blue text">Забули пароль?</a>
+</div>
+<div class="end">
+    <p>Не маєте облікового запису?</p>
+    <a href="#">Зареєструйтеся</a>
+</div>
+
+</body>
+</html>
