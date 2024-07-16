@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 13.1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+            font-weight: 600;
+        }
+
+        header > div > img {
+            height: 50px;
+            width: 50px;
+            border-radius: 7px;
+            transition: 0.5s;
+        }
+
+        header > div {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 20px;
+            color: white;
+        }
+
+        header > div > :hover {
+            opacity: 0.7;
+            transition: 0.5s;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            gap: 650px;
+            height: 55px;
+            margin-top: 10px;
+        }
+
+        header > nav > ol {
+            display: flex;
+
+            gap: 20px;
+            list-style-type: none;
+        }
+
+        header > nav > ol > li {
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+
+        header > nav > ol > li > a {
+            text-decoration: none;
+            color: white;
+            transition: 0.5s;
+        }
+
+        header > nav > ol > li > a:hover {
+            color: #cdcdcd;
+            transition: 0.5s;
+        }
+
+        header > nav > ol > li > button {
+            height: 50px;
+            width: 130px;
+            background-color: white;
+            border: none;
+            border-radius: 7px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 600;
+            font-size: 15px;
+            transition: 0.5s;
+        }
+
+        header > nav > ol > li > button:hover {
+            transform: scale(0.97);
+            transition: 0.5s;
+        }
+
+        .flex {
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            font-size: 23px;
+            color: white;
+        }
+
+        .flex > h2 {
+            width: 700px;
+        }
+
+        .flex > div {
+            width: 700px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background-color: white;
+            border-radius: 7px;
+            padding: 5px;
+        }
+
+        .flex > div > button:nth-child(1) {
+            width: 120px;
+            height: 40px;
+            border: 1px solid lightgray;
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 20px;
+            font-size: 15px;
+        }
+
+        .flex > div > input {
+            height: 40px;
+            width: 500px;
+            border: none;
+        }
+
+        .flex > div > input::placeholder {
+            font-size: 18px;
+            color: #8c8a8a;
+        }
+
+        .flex > div > button:nth-child(3) {
+            border: none;
+            background-color: white;
+        }
+
+        .flex > div > button:nth-child(3) > img {
+            height: 25px;
+            width: 25px;
+        }
+
+        video {
+            position: absolute;
+            top: 0;
+            z-index: -1;
+            width: 100vw;
+            height: 80vh;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div>
+        <img src="https://play-lh.googleusercontent.com/KtFwMsqVzBBpTFc8vR5SZRCNBvqknlWurnzTRl4J-2kdZhoM04LjklX9Vh8pl-fYfpU"
+             alt="pexels logo">
+        <span>Pexels</span>
+    </div>
+    <nav>
+        <ol>
+            <li><a href="#">Пошук</a></li>
+            <li><a href="#">Ліцензія</a></li>
+            <li><a href="#">Завантаження</a></li>
+            <li>...</li>
+            <li>
+                <button>Реєстрація</button>
+            </li>
+        </ol>
+    </nav>
+</header>
+<div class="flex">
+    <h2>Найкращі безкоштовні стокові фото та відео від талановитих авторів.</h2>
+    <div>
+        <button>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAApklEQVR4nO2UMQ6DMAwAT11Y+ELHTkz8Ih+gX+jAP/qJTnyHlYU5bN26dTNLKkUIRW4SIZA4KUMi2yc5luFEiQEmQCKOdflBbGRx8SRBfoExiCb3UAJZq6UVNDkFFXDx7ncX0+YQXIE38HT3G/BxMV+gThEUQO+9PYBhMZYjUMYKXsrZ71Ja9A+yC4HNuCpkTWASJHax7FK6oWIfAtlqfUuGPzkhyAxrh7nRonBPBAAAAABJRU5ErkJggg=="
+                 alt="photo">
+            Фото
+        </button>
+        <input type="search" name="search" placeholder="Пошук безкоштовних відео">
+        <button><img src="media/search.png" alt="search"></button>
+    </div>
+</div>
+<video src="media/sunset.mp4" loop autoplay muted></video>
+</body>
+</html>
