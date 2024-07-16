@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header {
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+header ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+header ol li {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header ol a {
+    text-decoration: none;
+    color: black;
+}
+
+/*MAIN*/
+main {
+    height: 87vh;
+    background: #FBF6F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    font-family: "Roboto", sans-serif;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    width: 336px;
+}
+
+.flex {
+    display: flex;
+    gap: 27px;
+}
+
+.column h2 {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.red {
+    color: #AD0306;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.p1 {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.p2 {
+    color: #A19FA0;
+    -webkit-text-stroke-width: 0.20000000298023224px;
+    -webkit-text-stroke-color: #A19FA0;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.p3 {
+    color: #B93536;
+    -webkit-text-stroke-width: 0.20000000298023224px;
+    -webkit-text-stroke-color: #A90102;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.text {
+    padding-top: 11px;
+    -webkit-text-stroke-width: 0.10000000149011612px;
+    -webkit-text-stroke-color: #000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/*SECTION*/
+section {
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 57px;
+}
+
+section > h2 {
+    color: #142823;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    width: 472px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 32px;
+    background: white;
+
+    /* 200 */
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+}
+
+.inline {
+    display: flex;
+    gap: 128px;
+}
+
+.card > p {
+    color: #282828;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+div.card > span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.blue {
+    color: #106FDF;
+}
+
+.red {
+    color: #DD152D;
+}
+
+div.card:nth-child(1) {
+    position: relative;
+}
+
+div.card:nth-child(1) > img:nth-child(4) {
+    position: absolute;
+    top: -30px;
+}
+
+div.card:nth-child(3) {
+    position: relative;
+}
+
+div.card:nth-child(3) > img:nth-child(4) {
+    position: absolute;
+    top: -30px;
+}
