@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Taviraj", serif;
+}
+
+body {
+    background: #F7F6F4;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    padding-top: 42px;
+}
+
+div.center {
+    display: flex;
+    gap: 186px;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+header img {
+    width: 178px;
+    height: 22px;
+}
+
+header nav ol:nth-child(1) {
+    display: flex;
+    gap: 40px;
+}
+
+header > div.center > nav > ol > li:nth-child(3):hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    position: absolute;
+    width: 160px;
+    height: 107px;
+    background-color: rgba(255, 255, 255, 0.64);
+    display: none;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.dropdown li {
+    list-style-type: none;
+    padding: 0 41px 0 20px;
+}
+
+.dropdown > li:nth-child(1) {
+    padding-top: 5px;
+}
+
+.dropdown li:hover {
+    background-color: rgba(204, 201, 201, 0.55);
+}
+
+header > div.center > nav > ol > li {
+    list-style-type: none;
+    position: relative;
+}
+
+header > div.center > nav > ol > li > a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+/*MAIN*/
+
+main {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+section {
+    width: 1110px;
+    height: 505px;
+    background: #F1DDC9;
+    display: flex;
+    gap: 56px;
+    margin-top: 90px;
+}
+
+section > div {
+    display: flex;
+    flex-direction: column;
+}
+
+section > div > h1 {
+    width: 420px;
+    color: #333;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+    margin: 56px 0 32px 0;
+}
+
+section > div > p {
+    width: 529px;
+    margin-bottom: 79px;
+}
+
+section > div > button {
+    background: #D84727;
+    border: none;
+    color: #FFF;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    width: 208px;
+    height: 62px;
+}
+
+main > h2:nth-child(2) {
+    color: #333;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin: 79px 0 89px 0;
+}
+
+div.flex {
+    display: flex;
+    gap: 30px;
+}
+
+div.box {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 255px;
+    height: 278px;
+    position: relative;
+    padding: 0 24px;
+}
+
+div.box > span {
+    margin: 33px 0;
+    font-weight: 500;
+    color: #333;
+}
+
+div.flex > div.box > img {
+    position: absolute;
+    top: -40px;
+}
+
+main > h2:nth-child(4) {
+    width: 228px;
+    height: 40px;
+    margin: 132px 0 20px 0;
+    color: #333;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+div.inline {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+    margin-bottom: 151px;
+}
+
+div.inline > div > span {
+    color: #777;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+    margin-bottom: 16px;
+}
+
+div.inline > div > p {
+    width: 350px;
+    height: 96px;
+    color: #333;
+    font-size: 36px;
+}
+
+
