@@ -31,7 +31,7 @@ header > div.center {
 
 }
 
-header ol {
+header nav ol {
     list-style-type: none;
     display: flex;
     gap: 64px;
@@ -44,7 +44,7 @@ header span {
     opacity: 0.6;
 }
 
-header ol li a {
+header nav ol li a {
     text-decoration: none;
     color: #FFF;
     font-size: 16px;
