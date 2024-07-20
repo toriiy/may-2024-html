@@ -1,0 +1,26 @@
+@media screen and (max-width: 480px) {
+    div.inline div {
+        width: 100%;
+    }
+
+    div.inline {
+        flex-direction: column;
+    }
+
+    div.flex {
+        flex-direction: column;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

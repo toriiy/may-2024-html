@@ -1,0 +1,19 @@
+@media screen and (min-width: 480px) and (max-width: 1280px) {
+    main {
+        height: 30vh;
+        padding: 40px 40px 0 0;
+    }
+
+    section {
+        height: 42vh;
+        width: 25%;
+    }
+
+    section p {
+        transform: rotate(90deg);
+    }
+
+    div.flex {
+        flex-wrap: nowrap;
+    }
+}
