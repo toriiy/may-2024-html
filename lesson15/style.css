@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+header {
+    height: 30vh;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+}
+
+main {
+    height: 65vh;
+    width: 80vw;
+    background-color: lightgray;
+    border-radius: 10px;
+
+}
+
+aside {
+    height: 65vh;
+    width: 20vw;
+    background-color: lightgray;
+    border-radius: 10px;
+
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
