@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px) {
+    div.flex {
+        flex-direction: column;
+    }
+
+    header {
+        height: 15vh;
+    }
+
+    section {
+        height: 20vh;
+        width: 100%;
+    }
+
+    main {
+        height: 42vh;
+    }
+
+    aside {
+        height: 15vh;
+        width: 100%;
+    }
+}

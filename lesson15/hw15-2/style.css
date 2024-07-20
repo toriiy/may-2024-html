@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 10px;
+}
+
+header {
+    height: 30vh;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+main {
+    height: 35vh;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    height: 28vh;
+    width: 25vw;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+aside {
+    height: 65vh;
+    width: 25vw;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+div.inline {
+    display: flex;
+    gap: 10px;
+}
+
+div.flex {
+    display: flex;
+    gap: 10px;
+}
