@@ -1,0 +1,22 @@
+@media screen  and (min-width: 480px) and (max-width: 1280px) {
+    body {
+        padding: 48px 24px;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        width: 768px;
+    }
+
+    section div:nth-child(1),
+    section div:nth-child(2) {
+        margin-bottom: 16px;
+    }
+
+    section div p {
+        width: 348px;
+    }
+
+}
