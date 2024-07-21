@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1609764262480-a58aca4dfc93?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 144px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1 {
+    color: #FFF;
+    text-align: center;
+    /* Large title/2 strong */
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 120%; /* 76.8px */
+}
+
+section p {
+    color: #FFF;
+    text-align: center;
+    /* Text/1 regular */;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+    width: 960px;
+    margin: 40px 0 64px 0;
+}
+
+section div button:first-of-type {
+    height: 64px;
+    padding: 0 60px;
+    border: none;
+    border-radius: 32px;
+    background: #FFF;
+    color: #000;
+    /* Text/3 strong */
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+}
+
+section div button:last-of-type {
+    border: none;
+    height: 64px;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: #FFF;
+    /* Text/3 strong */
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%; /* 19.2px */
+}
+
+section div {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+}

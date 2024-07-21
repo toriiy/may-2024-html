@@ -1,0 +1,23 @@
+@media screen and (min-width: 480px) and (max-width: 1280px) {
+    body {
+        padding-top: 78px;
+    }
+
+    section h1 {
+        font-size: 32px;
+    }
+
+    section p {
+        font-size: 18px;
+        width: 672px;
+        margin: 35px 0 30px 0;
+    }
+
+    section div button:first-of-type {
+        padding: 0 30px;
+    }
+
+    section div {
+        gap: 32px;
+    }
+}
