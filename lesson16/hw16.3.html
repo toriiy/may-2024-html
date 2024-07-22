@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 16.3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        div.grid {
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 1fr 1.5fr 1.5fr 1fr;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-areas:
+            'header header header'
+            'aside1 section1 aside2'
+            'aside1 section2 aside2'
+            'footer footer footer';
+        }
+
+        header {
+            background: #D9D9D9;
+            grid-area: header;
+        }
+
+        aside {
+            background: #C0BDBD;
+        }
+
+        div.grid aside:nth-child(2) {
+            grid-area: aside1;
+        }
+
+        div.grid aside:nth-child(5) {
+            grid-area: aside2;
+        }
+
+        div.grid section:nth-child(3) {
+            background: #827878;
+            grid-area: section1;
+        }
+
+        div.grid section:nth-child(4) {
+            background: #B7ADAD;
+            grid-area: section2;
+        }
+
+        footer {
+            background: #D9D9D9;
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="grid">
+    <header></header>
+    <aside></aside>
+    <section></section>
+    <section></section>
+    <aside></aside>
+    <footer></footer>
+</div>
+
+</body>
+</html>
