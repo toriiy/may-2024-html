@@ -7,10 +7,13 @@
     section {
         height: 42vh;
         width: 25%;
+        align-items: flex-start;
+        justify-content: center;
     }
 
     section p {
-        transform: rotate(90deg);
+        padding-right: 70px;
+        transform: rotate(-90deg);
     }
 
     div.flex {
