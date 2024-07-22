@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px) {
+    body {
+        padding: 32px 0;
+    }
+
+    section div img {
+        width: 343px;
+        height: 257px;
+    }
+
+    section {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    section div:nth-child(1),
+    section div:nth-child(2),
+    section div:nth-child(3) {
+        margin-bottom: 0;
+    }
+}

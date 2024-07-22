@@ -1,0 +1,19 @@
+@media screen and (min-width: 480px) and (max-width: 1280px) {
+    body {
+        padding: 32px 0;
+    }
+
+    section div img {
+        width: 218px;
+        height: 164px;
+    }
+
+    section div h3 {
+        width: 218px;
+        text-align: center;
+    }
+
+    section {
+        width: 768px;
+    }
+}
