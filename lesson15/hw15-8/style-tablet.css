@@ -1,0 +1,26 @@
+@media screen and (min-width: 480px) and (max-width: 1280px) {
+    body {
+        padding: 48px 0;
+    }
+
+    section div h2 {
+        width: 240px;
+    }
+
+    section div:nth-child(2) h2 {
+        width: 330px;
+    }
+
+    section div p {
+        width: 348px;
+    }
+
+    section div:nth-child(3) h2,
+    section div:nth-child(4) h2 {
+        margin-top: 24px;
+    }
+
+    section {
+        gap: 24px;
+    }
+}
