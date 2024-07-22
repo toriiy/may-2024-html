@@ -5,6 +5,7 @@
 
     div.flex {
         flex-direction: column;
+        align-items: center;
     }
 
     section h1 {
@@ -18,6 +19,7 @@
     iframe {
         width: 720px;
         height: 405px;
+        margin-left: 100px;
     }
 
 }

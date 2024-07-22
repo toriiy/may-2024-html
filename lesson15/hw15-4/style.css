@@ -53,6 +53,7 @@ section li {
     font-size: 24px;
     font-weight: 400;
     line-height: 140%; /* 33.6px */
+    margin-left: 35px;
 }
 
 section button:last-of-type {
@@ -70,13 +71,13 @@ section button:last-of-type {
 
 div.inline {
     display: flex;
+    align-items: center;
     gap: 24px;
 }
 
 div.flex {
     display: flex;
     gap: 24px;
-    margin: 0 auto;
 }
 
 iframe {

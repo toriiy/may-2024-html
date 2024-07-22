@@ -25,10 +25,12 @@
     iframe {
         width: 343px;
         height: 193px;
+        margin-right: 55px;
     }
 
     div.flex {
         flex-direction: column;
+        align-items: center;
     }
 
 }
