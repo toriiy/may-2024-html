@@ -16,4 +16,9 @@
         width: 330px;
     }
 
+    section div img {
+        width: 128px;
+        height: 128px;
+    }
+
 }
