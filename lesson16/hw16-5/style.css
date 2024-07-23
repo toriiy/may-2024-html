@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.grid {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+      'header header header header header'
+      'section1 section2 section3 section4 section5'
+      'footer footer footer footer footer';
+}
+
+header {
+    background: #D9D9D9;
+    grid-area: header;
+}
+
+div.grid section:nth-child(even) {
+    background: #A4A4A4;
+}
+
+div.grid section:nth-child(odd) {
+    background: #CAC7C7;
+}
+
+div.grid section:nth-child(2) {
+    grid-area: section1;
+}
+
+div.grid section:nth-child(3) {
+    grid-area: section2;
+}
+
+div.grid section:nth-child(4) {
+    grid-area: section3;
+}
+
+div.grid section:nth-child(5) {
+    grid-area: section4;
+}
+
+div.grid section:nth-child(6) {
+    grid-area: section5;
+}
+
+footer {
+    background: #D9D9D9;
+    grid-area: footer;
+}
