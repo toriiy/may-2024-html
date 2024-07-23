@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 16.4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Inter", sans-serif;
+        }
+
+        div.grid {
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 2fr 1.7fr 1.7fr 1.7fr 2fr;
+            grid-template-columns: 3fr 1fr;
+            grid-template-areas:
+            'header header'
+            'section1 aside'
+            'section2 aside'
+            'section3 aside'
+            'footer footer';
+        }
+
+        span {
+            font-size: 45px;
+            font-weight: 400;
+        }
+
+        header {
+            background: #8D8484;
+            grid-area: header;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section {
+            color: #FFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div.grid section:nth-child(2) {
+            background: #776969;
+            grid-area: section1;
+        }
+
+        div.grid section:nth-child(3) {
+            background: #643030;
+            grid-area: section2;
+        }
+
+        div.grid section:nth-child(4) {
+            background: #441818;
+            grid-area: section3;
+        }
+
+        aside {
+            color: #FFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .block {
+            grid-area: aside;
+            display: grid;
+            grid-template-rows: repeat(2, 1fr);
+            grid-template-columns: 1fr;
+            grid-template-areas:
+            'aside1'
+            'aside2';
+        }
+
+        div.grid aside:first-of-type {
+            background: #937575;
+            grid-area: aside1;
+        }
+
+        div.grid aside:last-of-type {
+            background: #644C4C;
+            grid-area: aside2;
+        }
+
+        footer {
+            background: #BDBDBD;
+            grid-area: footer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="grid">
+    <header>
+        <span>Header</span>
+    </header>
+    <section>
+        <span>Content - 1</span>
+    </section>
+    <section>
+        <span>Content - 2</span>
+    </section>
+    <section>
+        <span>Content - 3</span>
+    </section>
+    <div class="block">
+        <aside>
+            <span>spam -1</span>
+        </aside>
+        <aside>
+            <span>spam -2</span>
+        </aside>
+    </div>
+    <footer>
+        <span>footer</span>
+    </footer>
+</div>
+
+</body>
+</html>
