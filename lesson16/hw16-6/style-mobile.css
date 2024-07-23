@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+    div.grid {
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'header'
+        'section1'
+        'section2'
+        'section3'
+        'footer';
+    }
+}
